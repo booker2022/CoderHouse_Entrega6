@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./Imagenes/ISR Favicon.jpg">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+    <!-- Bootstrp  -->
+    <link rel="stylesheet" href="./Bootstrap/CSS/bootstrap.min.css">
+    <script src="./Bootstrap/JS/jquery.slim.min.js"></script>
+    <script src="./Bootstrap/JS/bootstrap.bundle.min.js"></script>
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="./Assets/CSS/animate.css">
+
+    <link rel="stylesheet" href="./Assets/CSS/estilos.css"> 
+
+    <!-- WOW -->
+    <script src="./Assets/JS/wow.js"></script>
+    <script>
+        new wow(),init();    
+    </script>
+
+    <title> Instituto San Roman </title>
+</head>
+<body>
+    <header>
+        <img class="img__logo" src="./imagenes/Logo.jpg" alt="Logo Instituto San Roman" >  
+     
+        <nav>
+            <ul>
+                <li class="menu__item"> <a class="menu__link" href="./Index.html">Inicio</a></li>
+                <li class="menu__item"> <a class="menu__link" href="./Novedades.html">Novedades</a></li>
+                <li Class="menu__item"> <a class="menu__link" href="./Historia.html">Nuestra Historia</a></li>
+                <li class="menu__item"> <a class="menu__link" href="./Intercambio.html">Intercambios Internacionales</a></li>
+                <li class="menu__item"> <a class="menu__link" href="./Exalumnos.html">Exalumnos</a></li>
+                <li class="menu__item"> <a class="menu__link" href="./Inscripciones.html">Inscripciones</a></li>
+            </ul>
+        </nav>
+</header>
+
+<form action="Gracias.html" method="post" enctype="application/x-www-form-urlencoded">
+    <fieldset class="border p-2">
+        <legend>Datos Personales Responsable</legend>
+        <div class="fieldset_marg">
+            <label for="ApeResp">Apellido Responsable: </label>
+            <input type="text" name="ApeResp" id="ApeResp" placeholder="Apellido Responsable"/>
+        </div>
+        <div class="fieldset_marg">
+            <label for="NomResp">Nombre Responsable: </label>
+            <input type="text" name="NomResp" id="NomResp" placeholder="Nombre Responsable"/>
+        </div>
+    </fieldset>
+
+    <fieldset class="border p-2">
+        <legend>Datos Personales Aspirante</legend>
+        <div class="fieldset_marg">
+            <label for="ApeAlu">Apellido Aspirante: </label>
+            <input type="text" name="ApeAlu" id="ApeAlu" placeholder="Apellido Aspirante"/>
+        </div>
+        <div class="fieldset_marg">
+            <label for="NomAlu">Nombre Aspirante: </label>
+            <input type="text" name="NomAlu" id="NomAlu" placeholder="Nombre Aspirante"/>
+        </div>
+
+    </fieldset>
+
+    <fieldset class="border p-2">
+        <legend>Niveles Academicos</legend>
+        <div class="fieldset_sele_nivel">
+            <label for="Niveles Academcos"></label>
+            <select name="Nivel">
+                <option value="0" selected>Seleccione</option>  
+                <option value="I">Inicial</option>  
+                <option value="P">Primaria</option>  
+                <option value="S">Secundaria</option>  
+            </select>
+        </div>
+            
+        <div class="fieldset_sele_curso">
+            <select name="Sala/Grado/Año">
+                <option value="0" selected>Seleccione</option>  
+                <option value="1">Sala 2 años</option>  
+                <option value="2">Sala 3 años</option>  
+                <option value="3">Sala 4 años</option>  
+                <option value="4">Sala 5 años</option>  
+
+                <option value="5">1° Grado</option>  
+                <option value="6">2° Grado</option>  
+                <option value="7">3° Grado</option>  
+                <option value="8">4° Grado</option>  
+                <option value="9">5° Grado</option>  
+                <option value="10">6° Grado</option>  
+                <option value="11">7° Grado</option>  
+
+                <option value="12">1° Año</option>  
+                <option value="13">2° Año</option>  
+                <option value="14">3° Año</option>  
+                <option value="15">4° Año</option>  
+                <option value="16">5° Año</option>  
+            </select>
+        </div>
+
+        <div class="fieldset_btn">
+            <input type="submit" value="Enviar Formulario">
+            <input type="reset" value="Limpiar Formulario">
+        </div>
+
+    </fieldset>
+</form>
+
+
+<footer>
+    <div>
+        <span>
+            <img class="footer__img1" src="./imagenes/LogoMed.jpg" alt="Logo Instituto San Roman" >  
+        </span>
+
+        <span class="footer__txt1">
+            Instituto San Roman
+        </span>
+
+        <span class="footer__txt2">
+            Migueletes 2039 - CABA
+        </span>
+
+        <span class="footer__txt3">
+            Tel. 4784-2585
+        </span>
+
+        <span>
+            <img class="footer__img2" src="./imagenes/ATR.jpg" alt="Logo Instituto San Roman" >  
+        </span>
+
+    </div>
+</footer>
+
+
+</body>
+</html>
